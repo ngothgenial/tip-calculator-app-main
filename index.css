@@ -1,0 +1,146 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main-box {
+    width: 580px;
+    height: 310px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+
+}
+
+.box-element {
+    height: 290px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+
+
+}
+/* box-1 */
+
+.box-1{
+    /* height: 270px; */
+    /* align-content: center; */
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+
+}
+.input-1{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.input-label{
+    text-align: left;
+    font-weight: lighter;
+    font-size: small;
+
+
+
+}
+
+.input{
+   background-color:  hsl(189, 41%, 97%);
+   border-style: none;
+   border-radius: 5px;
+   height: 30px;
+   background-image: url(images/icon-dollar.svg);
+   background-repeat: no-repeat;
+   background-position-x: 15px;
+   background-position-y: center;
+   text-align: right;
+   font-size:medium;
+   font-weight: bolder;
+   color:hsl(183, 100%, 15%) ;
+
+}
+
+
+.btn-times{
+    background-color: hsl(172, 67%, 45%);
+    font-weight: bold;
+    color: hsl(183, 100%, 15%);
+    height: 35px;
+    width: 67px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 3px;
+}
+.list-btn{
+    margin-bottom: 20px;
+}
+.input-2{
+    background-color:  hsl(189, 41%, 97%);
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: center;
+    text-align: right;
+    font-size:medium;
+    font-weight: bolder;
+ 
+ }
+
+
+/* box 2 */
+.box-2 {
+    height: 270px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    padding: 20px;
+   
+
+
+}
+
+#tip-id {
+    font-size: x-small;
+    color: hsl(0, 0%, 100%);
+    /* float: left; */
+}
+
+#tip-type {
+    font-size: x-small;
+    font-weight: normal;
+    color: hsl(184, 14%, 56%);
+    /* float: left; */
+
+}
+
+#tip-amount {
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    color: hsl(172, 67%, 45%);
+    float: right;
+
+}
+
+.button {
+    margin-top: 80px;
+}
+
+.btn {
+    background-color: hsl(172, 67%, 45%);
+    font-weight: bold;
+    color: hsl(183, 100%, 15%);
+    height: 35px;
+}
+
+
+
